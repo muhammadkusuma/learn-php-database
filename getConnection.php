@@ -1,6 +1,6 @@
 <?php
 
-function getConnection()
+function getConnection():PDO
 {
     $host = "localhost";
     $port = 3306;
